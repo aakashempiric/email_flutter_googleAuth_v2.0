@@ -49,6 +49,7 @@ dependencies:
   animated_bottom_navigation_bar: ^1.3.0
   supabase_flutter: ^1.10.25
   oauth2_client: ^3.2.2
+  shared_preferences: ^2.2.2
 
 
 dev_dependencies:

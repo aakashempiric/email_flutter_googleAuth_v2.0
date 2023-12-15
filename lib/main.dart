@@ -10,13 +10,18 @@ import 'package:permission_handler/permission_handler.dart';
 
 import 'package:http/http.dart' as http;
 import 'package:googleapis/gmail/v1.dart' as gmail;
+import 'package:shared_preferences/shared_preferences.dart';
 
+import 'Utils/shar_prefs.dart';
 import 'gLink.dart';
 import 'googemap.dart';
 import 's.dart';
 
+
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+    prefs = await SharedPreferences.getInstance();
   await Firebase.initializeApp(
       options: const FirebaseOptions(
         appId: "1:1081118767810:android:032675d200f0c33e17195b",
