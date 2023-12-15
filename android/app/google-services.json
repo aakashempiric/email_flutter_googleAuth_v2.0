@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "546137572569",
+    "project_id": "akash-testing-bc807",
+    "storage_bucket": "akash-testing-bc807.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546137572569:android:f4d2e304e4277c17db6ac8",
+        "android_client_info": {
+          "package_name": "com.example.ai.email.ai_email"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546137572569-m0m3lvp67hu8g5tddk51kvmre9bp3qep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ai.email.ai_email",
+            "certificate_hash": "1de38d0e4596f3e1ddebaf2bef745854af42f59d"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL6ALX_t75W9B_OfE78flyP2tfPwy0sws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546137572569-6tf9m1lr24qe4pqocvneesbmpt5uj5n9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
