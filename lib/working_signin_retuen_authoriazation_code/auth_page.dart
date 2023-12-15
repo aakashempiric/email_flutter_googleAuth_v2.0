@@ -7,6 +7,7 @@ class SignInDemo extends StatefulWidget {
   State createState() => SignInDemoState();
 }
 
+
 class SignInDemoState extends State<SignInDemo> {
   GoogleSignIn _googleSignIn = GoogleSignIn(scopes: [
     //'openid',
